@@ -1,7 +1,7 @@
 import Pet from "./Pet";
 
 
-const Results = ({pets}) => {
+const Results = ({ pets }) => {
     return (
         <div className="search">
             {!pets.length ? (
